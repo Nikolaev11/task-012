@@ -1,38 +1,235 @@
-.App {
-  text-align: center;
+body {
+  color: #828286
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  .catalog {
+  display: inline-block;
+  margin-top: 38px;
+  color: #0d5adc;
+  margin-right: 790px;
+  font-weight: bold
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.compare {
+  display: inline-block;
+  margin-right: 30px;
+  color: #3b4157;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lk {
+  display: inline-block;
+  color: #3b4157;
+}
+
+.header-background {
+  width: 100%;
+  height: 99px;
+  border-bottom: 1px solid #a6a5a9;
+}
+
+.header {
+  margin: auto;
+  width: 1110px;
+  height: 100%;
+}
+
+.tablehead-background {
+  height: 366px;
+  width: 100%;
+}
+
+.tablebody-background {
+  width: 100%;
+  background-color: #f4f9fc;
+  padding-bottom: 85px;
+}
+
+.compare-head {
+  margin: auto;
+  width: 1110px;
+  height: 124px;
+  display: -webkit-flex;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
-.App-link {
-  color: #61dafb;
+.tablehead {
+  margin: auto;
+  width: 1110px;
+  height: 242px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.compare-head-left {
+  -webkit-flex: auto;
+  flex: auto;
+  height: 60px;
+  padding-top: 64px;
+  text-align: left;
+}
+
+.compare-head-left > span {
+  font-weight: 900;
+  font-size: 42px;
+}
+
+.compare-head-right {
+  height: 52px;
+  width: 555px;
+  padding-top: 72px;
+  text-align: right;
+  color: #0d5adc;
+}
+
+.compare-head-right > span {
+  font-size: 18px;
+}
+
+.tablehead-cell {
+  padding-top: 13px;
+  font-size: 18px;
+  border-bottom: 1px solid #cdcfd2;
+  height: 228px;
+  padding-left: 28px;
+
+}
+
+.tablebody-row {
+  margin: auto;
+  width: 1110px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.first-column {
+  -webkit-flex: auto;
+  flex: auto;
+  width: 250px;
+  max-width: 250px;
+}
+
+.first-column > label{
+display: block;
+margin-top: 110px;
+color: #0d5adc;
+}
+
+.other-column {
+  -webkit-flex: auto;
+  flex: auto;
+  padding-left: 18px;
+  color: #3b4157;
+}
+
+.other-column-img {
+  height: 112px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+
+.table-cell {
+  height: 59px;
+  border-bottom: 1px solid #cdcfd2;
+  padding-top: 54px;
+  font-size: 18px;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.set-dispaycount-button {
+  border: none;
+  background-color: inherit;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  font-style: unset;
+  color: #0d5adc;
+  margin-left: 6px;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.input-checkbox {
+  height: 24px;
+  width: 24px;
+}
+
+.modal-placeholder {
+  width: 30px;
+  height: 45px;
+  display: inline-block;
+  margin-bottom: 5px;
+  margin-left: 16px;
+}
+
+.modal {
+  width: 326px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background: #fff;
+  position: absolute;
+  top:304px;
+  border-radius: 4px;
+  box-shadow: 2px 2px 20px #000000b4;
+}
+
+.modal > input {
+  font-size: 18px;
+  height: 37px;
+  width: 304px;
+  margin-top: 25px;
+}
+
+.modal-big {
+  height: 283px;
+  overflow: auto;
+  z-index: 100;
+}
+
+.modal-small{
+  height: auto;
+}
+
+.div-select {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+}
+
+.select-arrows {
+  width: 17px;
+  height: 17px;
+  margin-top: 32px;
+}
+
+.div-select > img {
+  height: 43px;
+  margin-top: 17px;
+  margin-bottom: 12px;
+  margin-left: 15px;
+  margin-right: 21px
+}
+
+.div-select-model {
+  -webkit-flex: auto;
+  flex: auto;
+  margin-top: 22px
+}
+
+.arrow-down {
+  width: 12px;
+  height: 12px;
+  border-top: 3px solid #0d5adc;
+  border-right: 3px solid #0d5adc;
+  margin-right: 60px;
+  transform: rotate(135deg);
+  margin-left: 8px;
+  margin-top: 10px;
 }
